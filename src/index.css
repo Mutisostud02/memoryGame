@@ -38,3 +38,48 @@ h1, h2, h3, h4, h5, h6 {
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
+body{
+  background-color: rgba(32, 51, 51, 0.7);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding:5rem;
+  gap: 2rem;background-color: rgb(32, 189, 181);
+  margin: auto;
+  width: 80dvw;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 1rem solid green;
+  background-color: rgb(23, 149, 187);
+  transition: scale 100ms ease-in-out;
+}
+img:active {
+  scale: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
